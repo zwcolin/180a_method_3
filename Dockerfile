@@ -22,7 +22,7 @@ USER root
 RUN apt-get -y install htop aria2 nmap traceroute
 
 # 3) install packages using notebook user
-USER zwcolin
+USER jovyan
 
 # RUN conda install -y scikit-learn
 
